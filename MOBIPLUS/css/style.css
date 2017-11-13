@@ -47,11 +47,11 @@ p {
 	font-size: 14px;
 }
 a {
-	color: #754747;
+	color: #000000;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #F4D03F;
+	color: #5391BA;
 }
 ul, ol {
 	list-style: none;
@@ -426,7 +426,7 @@ ol.type li a:hover {
 }
 /* Team Section */
 #team {
-	padding: 140px 0;
+	padding: 100px 0 0 50px;
 	background: #e6e6e6;
 }
 img.img-thumbnail.team-img {
@@ -681,3 +681,134 @@ img {
 .spacc2 {
 	margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.detail .carousel-indicators .active {
+	background: #246081;	
+}
+
+header .carousel-iphone{
+	margin-right: auto;
+	margin-left: auto;
+	width: 320px;
+	height: 672px;
+	background: url('../img/iphone-front.png') no-repeat;
+	background-size: 100%;
+	
+}
+
+header .carousel {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 95px 0px 0px 4px;
+	width: 282px;
+}
+
+header .carousel-indicators .active {
+	width: 15px;
+	height: 15px;
+	background: #444444;
+}
+
+header .carousel-indicators {
+	bottom: -63px;
+}
+
+header .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #666666;
+	border-radius: 10px;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+
+.detail{
+	overflow: hidden;
+	min-height: 500px;
+}
+
+.detail .title{
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.detail .features .row{
+	margin-bottom: 40px;
+}
+
+
+
+.detail .carousel-control{
+	background: none;
+}
+
+.detail .app-screenshot{
+	overflow: hidden;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 95px;
+	width: 320px;
+	height: 450px;
+	background: url('../img/iphone-front.png') no-repeat;
+	background-size: 100%;
+}
+
+.detail .app-screenshot img{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 4px;
+	width: 280px;
+}
+
+.detail .carousel-indicators {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 5px;
+	padding-bottom: 8px;
+	width: 100%;
+	border-top: 20px solid #e6e6e6;
+	background: #e6e6e6;
+}
+
+.detail .carousel-indicators .active {
+	width: 10px;
+	height: 10px;
+	border: none;
+	border-radius: 100px;
+}
+
+.detail .carousel-indicators li {
+	display: inline-block;
+	margin: 5px;
+	width: 10px;
+	height: 10px;
+	border: none;
+	border-radius: 100px;
+	background: #ffffff;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+
+
+
