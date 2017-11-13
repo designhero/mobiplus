@@ -426,7 +426,7 @@ ol.type li a:hover {
 }
 /* Team Section */
 #team {
-	padding: 100px 0 0 50px;
+	padding: 100px 0 50px 0;
 	background: #e6e6e6;
 }
 img.img-thumbnail.team-img {
@@ -739,7 +739,6 @@ header .carousel-indicators li {
 
 .detail{
 	overflow: hidden;
-	min-height: 500px;
 }
 
 .detail .title{
@@ -812,3 +811,98 @@ header .carousel-indicators li {
 
 
 
+
+
+
+section#contact {
+  background-color: #135977;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+  section#contact .section-heading {
+    color: white; }
+  section#contact .form-group {
+    margin-bottom: 40px; }
+    section#contact .form-group input,
+    section#contact .form-group textarea {
+      padding: 15px; }
+    section#contact .form-group input.form-control {
+      height: auto; }
+    section#contact .form-group textarea.form-control {
+      height: 236px; }
+  section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none; }
+  section#contact ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #a5a5a5;
+    font-family: 'OpenSans', sans-serif; }
+  section#contact :-moz-placeholder {
+    font-weight: 700;
+    color: #a5a5a5;
+    /* Firefox 18- */
+    font-family: 'OpenSans', sans-serif; }
+  section#contact ::-moz-placeholder {
+    font-weight: 700;
+    color: #a5a5a5;
+    /* Firefox 19+ */
+    font-family: 'OpenSans', sans-serif; }
+  section#contact :-ms-input-placeholder {
+    font-weight: 700;
+    color: #a5a5a5;
+    font-family: 'OpenSans', sans-serif; }
+  section#contact .text-danger {
+    color: #e74c3c; }
+
+footer {
+  padding: 15px 0 15px 0;
+  text-align: center; }
+  footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'OpenSans', sans-serif;
+    }
+  footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'OpenSans', sans-serif;
+}
+
+ul.social-buttons {
+  margin-bottom: 0; }
+  ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #222222; }
+    ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+      background-color: #5391BA; }
+
+.text-primary {
+  color: #fed136 !important; }
+
+
+
+  .whity {
+  	color: white;
+  }
+
+  #team .col-sm-4 {
+  	margin-bottom: 20px;
+  }
+
+  .spaccc {
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  }
