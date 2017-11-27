@@ -1,5 +1,5 @@
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: Barlow Semi Condensed;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #777;
@@ -15,7 +15,7 @@ h1 strong {
 h2 {
 	text-transform: uppercase;
 	line-height: 20px;
-	font-weight: 600;
+	font-weight: 700;
 	margin: 0;
 	color: #555;
 }
@@ -25,7 +25,8 @@ h3 {
 	color: #555;
 }
 h4 {
-	font-weight: 500;
+	font-size: 20px;	
+	font-weight: 700;
 	color: #555;
 }
 h5 {
@@ -36,7 +37,7 @@ h5 {
 h6{
 	color: white;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 24px;
 	margin-left: 30px;
 	margin-right: 30px;
@@ -44,14 +45,14 @@ h6{
 
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 }
 a {
 	color: #000000;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #5391BA;
+	color: #1794bc;
 }
 ul, ol {
 	list-style: none;
@@ -102,7 +103,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #5391BA;
+	background: #1794bc;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -119,7 +120,7 @@ hr {
 	font-weight: 600;
 }
 .navbar-custom .navbar-brand i.fa {
-	color: #5391BA;
+	color: #1794bc;
 }
 .navbar-custom .navbar-brand:focus {
 	outline: 0;
@@ -131,7 +132,7 @@ hr {
 	padding: 0 4px;
 }
 .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
-	background-color: #5391BA;
+	background-color: #1794bc;
 	color: #ffffff;
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
@@ -147,13 +148,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #5391BA;
+	color: #1794bc;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #5391BA;
+	color: #1794bc;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -190,7 +191,7 @@ hr {
 	text-transform: uppercase;
 }
 #intro .intro-body .brand-heading {
-	color: #5391BA;
+	color: #1794bc;
 }
 #intro .intro-body .intro-text {
 	font-size: 18px;
@@ -203,7 +204,7 @@ hr {
 	padding: 0;
 }
 #intro .intro-body .intro-text {
-	font-size: 18px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	margin-bottom: 100px;
 	color: rgba(255,255,255,0.9);
@@ -211,11 +212,12 @@ hr {
 }
 .btn-default {
 	color: #f6f6f6;
-	background: #5391BA;
+	background: #1794bc;
 	border: 0;
 	padding: 12px 24px;
 	margin: 20px 8px 8px 0px;
-	font-size: 18px;
+	font-size: 16px;
+	font-weight: 700;
 	transition: all 0.5s;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
@@ -249,7 +251,7 @@ hr {
 	content: "✓";
 	font-weight: 600;
 	padding-right: 10px;
-	color: #5391BA;
+	color: #1794bc;
 }
 #about i.fa {
 	float: left;
@@ -286,14 +288,14 @@ hr {
 	color: #f6f6f6;
 }
 #services p {
-	color: rgba(255,255,255,0.7);
+	color: white;
 }
 .space {
 	margin-top: 40px;
 }
 #services i.fa {
 	font-size: 36px;
-	color: #5391BA;
+	color: #1794bc;
 	transition: all 0.5s;
 }
 /* Gallery Section */
@@ -320,13 +322,13 @@ ol.type li a {
 }
 ol.type li a.active {
 	color: #f6f6f6;
-	border: 1px solid #5391BA;
-	background: #5391BA;
+	border: 1px solid #1794bc;
+	background: #1794bc;
 }
 ol.type li a:hover {
 	color: #f6f6f6;
-	border: 1px solid #5391BA;
-	background: #5391BA;
+	border: 1px solid #1794bc;
+	background: #1794bc;
 }
 .isotope-item {
 	z-index: 2
@@ -494,7 +496,7 @@ img.img-thumbnail.team-img {
 }
 #contact i.fa {
 	font-size: 22px;
-	color: #5391BA;
+	color: #1794bc;
 	margin-bottom: 10px;
 }
 #contact .text-danger {
@@ -531,7 +533,7 @@ label {
 	box-shadow: transparent;
 }
 #contact .btn-default {
-	background: #5391BA;
+	background: #1794bc;
 	border: 0;
 	border-radius: 4px;
 	padding: 10px 20px;
@@ -563,7 +565,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #contact .social i.fa {
 	font-size: 24px;
 	padding-top: 8px;
-	color: #5391BA;
+	color: #1794bc;
 	border-radius: 4px;
 	transition: all 0.3s;
 }
@@ -581,7 +583,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #999999;
 }
 #footer a:hover, a:focus {
-	color: #5391BA;
+	color: #1794bc;
 }
 #footer p {
 	font-size: 13px;
@@ -671,6 +673,7 @@ img {
 
 .spacc {
 	margin-bottom: 70px;
+	font-size: 20px;
 }
 
 .lat {
@@ -680,6 +683,7 @@ img {
 
 .spacc2 {
 	margin-bottom: 20px;
+	font-size: 20px;
 }
 
 
@@ -872,7 +876,7 @@ footer {
 }
 
 ul.social-buttons {
-  margin-bottom: 0; }
+  margin-bottom: 15px; }
   ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
@@ -887,7 +891,7 @@ ul.social-buttons {
     outline: none;
     background-color: #222222; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #5391BA; }
+      background-color: #1794bc; }
 
 .text-primary {
   color: #fed136 !important; }
@@ -910,3 +914,19 @@ ul.social-buttons {
   .logoprincipal {
   	padding-bottom: 30px;
   }
+
+  .negritin {
+  	font-weight: 700;
+  }
+
+  .p2 {
+  	font-size: 20px;
+  }
+  .cinza {
+  	font-color: #424242;
+  	margin-bottom: 16px;
+  }
+
+   .cinza {
+  	font-color: #424242;
+ } 
