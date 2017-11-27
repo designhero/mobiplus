@@ -428,7 +428,7 @@ ol.type li a:hover {
 }
 /* Team Section */
 #team {
-	padding: 100px 0 50px 0;
+	padding: 70px 0 50px 0;
 	background: #e6e6e6;
 }
 img.img-thumbnail.team-img {
@@ -477,7 +477,7 @@ img.img-thumbnail.team-img {
 }
 /* Contact Section */
 #contact {
-	padding: 120px 0 40px 0;
+	padding: 70px 0 15px 0;
 	background: #f6f6f6;
 }
 #contact .contact-item {
@@ -672,7 +672,7 @@ img {
 }
 
 .spacc {
-	margin-bottom: 70px;
+	margin-bottom: 10px;
 	font-size: 20px;
 }
 
@@ -786,10 +786,9 @@ header .carousel-indicators li {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	padding: 5px;
+	padding: 0px 5px 5px 5px;
 	padding-bottom: 8px;
 	width: 100%;
-	border-top: 20px solid #e6e6e6;
 	background: #e6e6e6;
 }
 
