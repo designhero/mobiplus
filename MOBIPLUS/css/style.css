@@ -268,6 +268,8 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
+
+
 /* Services Section */
 #services {
 	padding: 70px 0;
@@ -908,6 +910,11 @@ ul.social-buttons {
   .spaccc {
   	margin-top: 10px;
   	margin-bottom: 10px;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    opacity: 0.7;
+    filter: alpha(opacity=70);
   }
 
   .logoprincipal {
