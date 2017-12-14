@@ -1,5 +1,5 @@
 body, html {
-	font-family: Barlow Semi Condensed;
+	font-family: Roboto;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #777;
@@ -45,7 +45,7 @@ h6{
 
 
 p {
-	font-size: 16px;
+	font-size: 14px;
 }
 a {
 	color: #000000;
@@ -204,7 +204,7 @@ hr {
 	padding: 0;
 }
 #intro .intro-body .intro-text {
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 1px;
 	margin-bottom: 100px;
 	color: rgba(255,255,255,0.9);
@@ -675,7 +675,7 @@ img {
 
 .spacc {
 	margin-bottom: 10px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .lat {
@@ -685,7 +685,7 @@ img {
 
 .spacc2 {
 	margin-bottom: 20px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 
@@ -908,8 +908,8 @@ ul.social-buttons {
   }
 
   .spaccc {
-  	margin-top: 10px;
-  	margin-bottom: 10px;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
     filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
@@ -926,7 +926,7 @@ ul.social-buttons {
   }
 
   .p2 {
-  	font-size: 20px;
+  	font-size: 18px;
   }
   .cinza {
   	font-color: #424242;
@@ -936,3 +936,15 @@ ul.social-buttons {
    .cinza {
   	font-color: #424242;
  } 
+
+ .central {
+ 	text-align: center;
+ }
+
+ .maxh {
+ 	max-height: 60px;
+ }
+
+ .titlee {
+ 	line-height: 30px;
+ }
